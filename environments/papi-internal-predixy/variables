@@ -1,0 +1,25 @@
+variable "region" { 
+ default = "us-east4-a"
+
+}
+ 
+variable "network" {
+ default = "mist-network"
+}
+
+variable "subnetwork" {
+ default = "predixy-prod-network"
+
+}
+
+variable "protocol" {
+ default = "TCP"
+
+}
+
+variable "ports" {
+ default = "7617"
+}
+
+
+
